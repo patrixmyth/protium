@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "description": "PROTIUM decay table — source of truth for nuclear decay examples. Q_MeV and halflife_s are input fields; all PROTIUM quantities are recomputed at notebook load time from hbes/constants.py.",
-    "source": "hbes/constants.py via hbes library — do not hardcode unit values here",
+    "description": "PROTIUM decay table — source of truth for nuclear decay examples. Q_MeV and halflife_s are input fields; all PROTIUM quantities are recomputed at notebook load time from protium/constants.py.",
+    "source": "protium/constants.py via PROTIUM library — do not hardcode unit values here",
     "version": "0.1.0",
     "expandable": true
   },
@@ -15,7 +15,7 @@
       "Q_MeV": 0.018591,
       "halflife_s": 388879488,
       "halflife_human": "12.32 yr",
-      "notes": "Self-referential: hydrogen defines the HBES unit system",
+      "notes": "Self-referential: hydrogen defines the PROTIUM unit system",
       "Q_quips": 3164788508.0476,
       "Q_quips_exp": 9.5003,
       "delta_m_chips": 3164788508.0476,
