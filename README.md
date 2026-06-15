@@ -2,7 +2,7 @@
 
 A Jupyter notebook demonstrating nuclear decay Q-values and half-lives in the native units of the **Hydrogen Blip Exponential Scale (HBES)** framework.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patrixmyth/protium/blob/main/hbes_decay_workbook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patrixmyth/protium/blob/main/protium_decay_workbook.ipynb)
 
 ## Units
 
@@ -16,8 +16,8 @@ A Jupyter notebook demonstrating nuclear decay Q-values and half-lives in the na
 
 ## Files
 
-- `hbes_decay_workbook.ipynb` — main notebook
-- `hbes_decays.json` — decay data table (Q-values, half-lives, HBES quantities)
+- `protium_decay_workbook.ipynb` — main notebook
+- `protium_decays.json` — decay data table (Q-values, half-lives, HBES quantities)
 
 ## Usage
 
@@ -27,10 +27,10 @@ A Jupyter notebook demonstrating nuclear decay Q-values and half-lives in the na
 ```bash
 git clone https://github.com/patrixmyth/protium.git
 cd protium
-jupyter notebook hbes_decay_workbook.ipynb
+jupyter notebook protium_decay_workbook.ipynb
 ```
 
-**Offline export:** The notebook auto-detects whether the `hbes` library is installed and falls back to inline constants if not. `hbes_decays.json` is fetched from GitHub when running in Colab, or read from the local directory otherwise.
+**Offline export:** The notebook auto-detects whether the `hbes` library is installed and falls back to inline constants if not. `protium_decays.json` is fetched from GitHub when running in Colab, or read from the local directory otherwise.
 
 ## Part of
 

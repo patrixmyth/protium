@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "description": "HBES decay table \u2014 source of truth for nuclear decay examples. Q_MeV and halflife_s are input fields; all HBES quantities are recomputed at notebook load time from hbes/constants.py.",
-    "source": "hbes/constants.py via hbes library \u2014 do not hardcode unit values here",
+    "description": "HBES decay table — source of truth for nuclear decay examples. Q_MeV and halflife_s are input fields; all HBES quantities are recomputed at notebook load time from constants.py (via hbes library).",
+    "source": "hbes library (constants.py) — do not hardcode unit values here",
     "version": "0.1.0",
     "expandable": true
   },
@@ -82,7 +82,7 @@
       "mode": "alpha",
       "Q_MeV": 7.8336,
       "halflife_s": 0.0001643,
-      "halflife_human": "164.3 \u03bcs",
+      "halflife_human": "164.3 μs",
       "notes": "Extremely short-lived; high-energy end of natural alpha range",
       "Q_quips": 1333531668906.5483,
       "Q_quips_exp": 12.125,
