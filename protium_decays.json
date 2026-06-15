@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "description": "HBES decay table — source of truth for nuclear decay examples. Q_MeV and halflife_s are input fields; all HBES quantities are recomputed at notebook load time from constants.py (via hbes library).",
-    "source": "hbes library (constants.py) — do not hardcode unit values here",
+    "description": "PROTIUM decay table — source of truth for nuclear decay examples. Q_MeV and halflife_s are input fields; all PROTIUM quantities are recomputed at notebook load time from hbes/constants.py.",
+    "source": "hbes/constants.py via hbes library — do not hardcode unit values here",
     "version": "0.1.0",
     "expandable": true
   },
