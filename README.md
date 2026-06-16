@@ -1,6 +1,6 @@
-# HBES Nuclear Decay Workbook
+# PROTIUM Nuclear Decay Workbook
 
-A Jupyter notebook demonstrating nuclear decay Q-values and half-lives in the native units of the **Hydrogen Blip Exponential Scale (HBES)** framework.
+A Jupyter notebook demonstrating nuclear decay Q-values and half-lives in the native units of the PROTIUM framework.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patrixmyth/protium/blob/main/protium_decay_workbook.ipynb)
 
@@ -17,7 +17,7 @@ A Jupyter notebook demonstrating nuclear decay Q-values and half-lives in the na
 ## Files
 
 - `protium_decay_workbook.ipynb` — main notebook
-- `protium_decays.json` — decay data table (Q-values, half-lives, HBES quantities)
+- `protium_decays.json` — decay data table (Q-values, half-lives, PROTIUM quantities)
 
 ## Usage
 
@@ -30,8 +30,8 @@ cd protium
 jupyter notebook protium_decay_workbook.ipynb
 ```
 
-**Offline export:** The notebook auto-detects whether the `hbes` library is installed and falls back to inline constants if not. `protium_decays.json` is fetched from GitHub when running in Colab, or read from the local directory otherwise.
+**Offline export:** The notebook auto-detects whether the `PROTIUM` library is installed and falls back to inline constants if not. `protium_decays.json` is fetched from GitHub when running in Colab, or read from the local directory otherwise.
 
 ## Part of
 
-[redacted.space](https://redacted.space) — BLIP/HBES notation and tooling.
+[redacted.space](https://redacted.space) — BLIP/PROTIUM notation and tooling.
